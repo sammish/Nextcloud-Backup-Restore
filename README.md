@@ -1,3 +1,5 @@
+**Archived, moved to Codeberg: https://codeberg.org/DecaTec/Nextcloud-Backup-Restore**
+
 # Nextcloud-Backup-Restore
 
 This repository contains two bash scripts for backup/restore of [Nextcloud](https://nextcloud.com/).
