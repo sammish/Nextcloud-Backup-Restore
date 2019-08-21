@@ -34,11 +34,11 @@ currentDate=$(date +"%Y%m%d_%H%M%S")
 backupdir="${backupMainDir}/${currentDate}/"
 
 # TODO: The directory of your Nextcloud installation (this is a directory under your web root)
-nextcloudFileDir='/var/www/nextcloud'
+nextcloudFileDir='/mnt/ncdata'
 
 # TODO: The directory of your Nextcloud data directory (outside the Nextcloud file directory)
 # If your data directory is located under Nextcloud's file directory (somewhere in the web root), the data directory should not be a separate part of the backup
-nextcloudDataDir='/var/nextcloud_data'
+nextcloudDataDir='/var/www/nextcloud'
 
 # TODO: The directory of your Nextcloud's local external storage.
 # Uncomment if you use local external storage.
